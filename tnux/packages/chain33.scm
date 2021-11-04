@@ -16,7 +16,7 @@
            (commit (string-append "v" version))))
      (sha256
       (base32
-       "1wlv7ckl6qdcwbrgx5kjw7f7jncb828b2fgiwm65rpcrcjm0anzs"))))
+       "1wlv7ckl6qdcwbrgx5kjw7f7j     ncb828b2fgiwm65rpcrcjm0anzs"))))
    (build-system gnu-build-system)
    (home-page "https://github.com/33cn/chain33")
    (synopsis "chain33")
