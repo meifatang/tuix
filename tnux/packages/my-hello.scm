@@ -1,7 +1,8 @@
-(use-modules (guix packages)
-             (guix download)
-             (guix build-system gnu)
-             (guix licenses))
+(define-module (tnux packages my-hello)
+  #:use-module (guix packages)
+  #:use-module (guix download)
+  #:use-module (guix build-system gnu)
+  #:use-module (guix licenses))
 
 (package
   (name "my-hello")
