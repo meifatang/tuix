@@ -1,0 +1,5 @@
+;; -*- mode: shceme; -*-
+
+(channel
+  (version 0)
+  (url "https://github.com/meifatang/tuix"))
