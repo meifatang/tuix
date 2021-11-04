@@ -1,4 +1,4 @@
-;; -*- mode: shceme; -*-
+;; -*- mode: scheme; -*-
 
 (channel
   (version 0)
