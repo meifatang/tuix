@@ -16,7 +16,7 @@
             (file-name (git-file-name name version))
             (sha256
              (base32
-              "1wlv7ckl6qdcwbrgx5kjw7f7jncb828b2fgiwm65rpcrcjm0anzs"))))))
+              "1wlv7ckl6qdcwbrgx5kjw7f7jncb828b2fgiwm65rpcrcjm0anzs"))))
    (build-system gnu-build-system)
    (home-page "https://github.com/33cn/chain33")
    (synopsis "高度模块化, 遵循 KISS原则的区块链开发框架")
