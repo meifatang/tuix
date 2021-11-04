@@ -14,7 +14,6 @@
      (uri (git-reference
            (url "https://github.com/33cn/chain33")
            (commit (string-append "v" version))))
-     (file-name (git-file-name name version))
      (sha256
       (base32
        "1wlv7ckl6qdcwbrgx5kjw7f7jncb828b2fgiwm65rpcrcjm0anzs"))))
