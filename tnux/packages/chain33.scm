@@ -12,7 +12,8 @@
             (method git-fetch)
             (uri (git-reference
                   (url "https://github.com/33cn/chain33")
-                  (commit version)
+                  (commit (string-append "v" version))))
+            (file-name (git-file-name name version))
             (sha256
              (base32
               "0nfr0ivh6vx43bxf4d7sb2anwb0r22i8hkb4vldjd99d8gslp46h"))))))
